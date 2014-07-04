@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>XXXVI Feria Internacional de Barquisimeto</title>
+</head>
+<body>
+<table width="650" height="400" border="1" align="center">
+  <tr>
+    <td width="213" align="center"><img src="imagenes/afihe.gif" width="213" height="425"></td>
+    <td width="421" align="center"><font color="#CD3232" size="4" face="Arial, Helvetica, sans-serif">Sistema de Acceso<br />
+XXXVI Feria Internacional de Barquisimeto </font><br>
+<br>
+    <form method="post" action="acceso.php">
+			<font size="2" face="Arial, Helvetica, sans-serif"><strong>Código:</strong></font><br>
+			<input type="text" name="cod"><br><br>
+			<input type="submit" name="enviar" value="Aceptar">
+			 <strong>
+	          <font face="Arial, Helvetica, sans-serif" size="2" color="#FF0000">
+			   		<input type="radio" name="acceso" value="sale" <?php echo $_SESSION[sale]; ?> onClick="setfocus()">SALIDA
+			   </font>
+	      	 </strong>
+	  </form>	</td>
+  </tr>
+  <!---tr>
+    <td>&nbsp;</td>
+    <td width="279"><div align="right"><img src="Imagenes/logos.gif"></div></td>
+    <td width="196"><div align="center"><img src="Imagenes/fabiolaI.gif"></div></td>
+  </tr--->
+</table>
+</body>
+</html>
